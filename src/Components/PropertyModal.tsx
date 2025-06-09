@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import properties from '../properties';
+import { useState } from 'react'
 import { FaChevronLeft, FaChevronRight, FaHeart, FaLocationDot, FaX, FaBed, FaBath} from 'react-icons/fa6';
 
 const PropertyModal = ({onClose, properties}) => {

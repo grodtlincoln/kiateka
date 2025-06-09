@@ -1,4 +1,3 @@
-import React from 'react'
 import properties from '../properties';
 import { FaBath, FaBed, FaHeart, FaLocationDot } from 'react-icons/fa6';
 
