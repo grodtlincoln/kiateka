@@ -27,14 +27,14 @@ const Home = () => {
                            hover:bg-blue-50 focus:bg-white text-black transition-colors duration-200'/>
 
               <select className='px-4 py-3 rounded-lg text-gray-700 border border-gray-300 focus:outline-none 
-                                 focus:ring-2 focus-ring-black'>
+                                 focus:ring-2 focus-ring-black cursor-pointer'>
                 <option value="">House</option>
                 <option value="">Apartment</option>
                 <option value="">Villa</option>
               </select> 
 
               <button className='bg-green-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-black
-                                 transition-colors'>
+                                 transition-colors cursor-pointer'>
                 Search
               </button>            
             </div>    
@@ -44,19 +44,19 @@ const Home = () => {
               <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform 
                               hover:scale-105 cursor-pointer'>
                 <FaLocationDot className='text-blue-600 mb-2'/>
-                <span className='font-semibold text-white'>Bevely Hills</span>
+                <span className='font-semibold text-white'>Ado-Ekiti</span>
               </div>
 
               <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform 
                               hover:scale-105 cursor-pointer'>
                 <FaLocationDot className='text-blue-600 mb-2'/>
-                <span className='font-semibold text-white'>Bevely Hills</span>
+                <span className='font-semibold text-white'>Ado-Ekiti</span>
               </div>
               
               <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform 
                               hover:scale-105 cursor-pointer'>
                 <FaLocationDot className='text-blue-600 mb-2'/>
-                <span className='font-semibold text-white'>Bevely Hills</span>
+                <span className='font-semibold text-white'>Ado-Ekiti</span>
               </div>
 
             </div>
